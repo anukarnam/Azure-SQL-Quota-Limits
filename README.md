@@ -40,8 +40,8 @@ You can modify the $skipLocations array to include or exclude different regions 
 - The REST API versions are specified in the script. Make sure they are up to date with the Azure REST API versions you intend to use.
 
 ## Output
-- The script when run using the sub-id argument, connects to an Azure account and check the current SQL Server quota settings for that subscription. It eventually gets the subscription quota settings for SQL. 
-- The output table lists the specified Azure regions (like Central US, East US, etc.), displays the current SQL Server count in each region and the SQL Server quota limit. Each region listed in this case has a quota limit of 20 SQL Servers, with East US already having some 1 SQL Servers deployed, while the other regions have none deployed.
+- The script when run using the sub-id argument, connects to an Azure account and checks the current SQL Server quota settings for that subscription. Finally, it retrieves the subscription quota settings for SQL.
+- The output table displays the specified Azure regions (e.g., Central US, East US, etc.), along with the current SQL Server count in each region and the SQL Server quota limit. For this case, each specified Azure region has a quota limit set to 20 SQL Servers. However, in the output, the East US region has 1 SQL Server already deployed, while the others have none deployed.
   
 ![image](https://github.com/anukarnam/Azure-SQL-Quota-Limits.git)
 
