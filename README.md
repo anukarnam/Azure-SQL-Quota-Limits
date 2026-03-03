@@ -1,5 +1,5 @@
-# Azure SQL Region Capability and Quota Reporter
-This PowerShell script is designed to connect to an Azure account, set the subscription context, and retrieve the capabilities and quotas for Azure SQL in specified regions.
+# Azure SQL Quota Reporter
+This PowerShell script is intended for use in connecting to an Azure account, setting the subscription, and retrieving the capabilities and quotas for Azure SQL for a specific region.
 
 ## Prerequisites
 - Azure PowerShell module installed.
